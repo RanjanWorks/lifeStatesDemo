@@ -1,0 +1,185 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      nav {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        padding: 5px;
+        padding-left: 10px;
+        width: 100%;
+      }
+      .img_container {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .birthday_input {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .birthday_input input {
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        font-size: 20px;
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 2px;
+      }
+      .go {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .go button {
+        width: 320px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 2px;
+        border: none;
+        background-color: #2f2fff;
+        color: white;
+        cursor: pointer;
+      }
+      button:disabled {
+        background-color: #8484f4;
+      }
+      .show_box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: #ffffff;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0 0 40px 40px white;
+      }
+      .main_container {
+        width: 100%;
+        background-color: #ffffff;
+        height: 2120px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+      }
+      #date_box {
+        width: 55%;
+        height: 60%;
+        border: 1px solid;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+      }
+      #show_day {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 22%;
+        color: white;
+        font-size: 25px;
+        background-color: #e83939;
+      }
+      #show_numday {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+      }
+      #show_nummonth {
+        position: absolute;
+        top: 92%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .fog {
+        position: fixed;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+        height: 300px;
+        background-color: #ffffffc8;
+        box-shadow: 0 0 40px 40px white;
+
+        z-index: 1;
+      }
+      lottie-player {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .hide {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
+      .gray {
+        color: #a5a5a5;
+      }
+      .black {
+        color: black;
+      }
+
+      @media screen and (max-width: 480px) {
+        .gray {
+          margin-top: 60px;
+        }
+        .main_container {
+          gap: 0;
+        }
+      }
+.sc{
+  position: fixed;
+  top: 0;
+left: 0;
+width:100%;
+  height:7px;
+  background: #cccccc;
+  overflow: hidden;
+  z-index: 99999;
+
+
+
+  
+  
+}
+#bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #4133ff;
+}
+  

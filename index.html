@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="image_src" href="https://free-host.ranjankashyap.repl.co/logo2.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Life states</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+  
+  
+    <section id="section1">
+      <nav>
+        <h2>Life States</h2>
+      </nav>
+
+      <div class="img_container">
+        <img id="avatar" src="avatar.png" height="200px" />
+      </div>
+      <h2 style="text-align: center">Your Birthdate</h2>
+      <div class="birthday_input">
+        <input data-intro="Add Date" id="day" type="number" placeholder="Day" />
+        <input data-intro="Add Month" id="month" type="number" placeholder="Month" />
+        <input data-intro="Add Year" id="year" type="number" placeholder="Year" />
+      </div>
+      <div class="go">
+        <button data-intro="GO" onclick="TheMainFunction()" id="go_btn" disabled>
+          Go &raquo;
+        </button>
+      </div>
+    </section>
+    <section id="section2" style="height: 100vh; display: none">
+
+
+
+<div class="sc" >
+     <div id="bar">
+        
+     </div>
+     
+</div>
+      <div class="fog"></div>
+      <div class="show_box">
+        <div id="date_box">
+          <span id="show_day"></span>
+          <h1 id="show_numday"></h1>
+          <h3 id="show_nummonth">
+            <span id="show_mm"></span> <span id="show_yy"></span>
+          </h3>
+        </div>
+        <h1
+          style="z-index: 999; font-size: 40px; position: absolute; left: 0"
+          id="ss"
+        ></h1>
+
+        <section>
+          <div class="hide">
+            <lottie-player
+              src="https://assets4.lottiefiles.com/packages/lf20_4vdm2cza.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets4.lottiefiles.com/packages/lf20_gfkfo61w.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_y7frc7z0.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets10.lottiefiles.com/private_files/lf30_i2pyppik.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets5.lottiefiles.com/datafiles/HExuituxmQTR0Yj/data.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets3.lottiefiles.com/packages/lf20_dnp2c83r.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets6.lottiefiles.com/private_files/lf30_ugyi3yvo.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_QwNN2v.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets4.lottiefiles.com/packages/lf20_1y7curys.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets3.lottiefiles.com/packages/lf20_VRLcWc.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets3.lottiefiles.com/private_files/lf30_rn8hog3p.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets1.lottiefiles.com/private_files/lf30_TZmCSb.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_7ir2eqwg.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets6.lottiefiles.com/packages/lf20_itbaeokz/earth/earth.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <lottie-player
+              src="https://assets6.lottiefiles.com/packages/lf20_q2tcuaso.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div class="hide">
+            <img src="ranjan.jpg" height="300px" />
+          </div>
+        </section>
+      </div>
+      <div class="main_container">
+        <div class="gray">
+          <h3 style="margin-top: 100px">
+            A lot has happened in the <span id="show_totalDays"></span> days
+            since you were born.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3>Since you were born...</h3>
+        </div>
+        <div class="gray">
+          <h3>
+            Your heart has beaten about <span id="heart"></span> times and
+            pumped <span id="blood"></span> L of blood.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 16px;">
+            Your body has produced <span id="redbcells"></span> red blood cells.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3>You've taken about <span id="breath"></span> breaths.</h3>
+        </div>
+        <div class="gray">
+          <h3>You have blinked about <span id="blink"></span> times</h3>
+        </div>
+        <div class="gray">
+          <h3>
+            You've spent <span id="sleep"></span> days of your life asleep.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3>Now you are <span id="age"></span> years old</h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 14px">
+            It's not just in your head. There are <span id="people"></span> more
+            people on Earth than when you were born.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3>
+            You've traveled <span id="earthsun"></span> km around the Sun.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 15px;" >
+            Not only that, but our entire solar system is orbiting the Milky
+            Way..
+          </h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 16px">
+            So you've also traveled <span id="milky"></span> km around the Milky
+            Way!
+          </h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 17px">
+            The moon has orbited you <span id="moonyou"></span> times in your
+            lifetime.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 15px;" >
+            The moon is slowly moving away. It's <span id="moonaway"></span> cm
+            further away than when you were born.
+          </h3>
+        </div>
+        <div class="gray">
+          <h3 style="font-size: 15px;" >
+            Here on Earth we often feel things are getting worse. But in your
+            lifetime...
+          </h3>
+        </div>
+        <div class="gray">
+          <h3>
+            You are about to turn <span id="eage"></span> after
+            <span id="eday"></span> <span id="eleft"> </span> Days
+          </h3>
+        </div>
+        <div class="gray">
+          <h2>Made by Ranjan ❤️</h2>
+        </div>
+      </div>
+    </section>
+   <script src="script.js"></script>
+   <script src="https://CDN.ranjankashyap1.repl.co/intro.js"></script>
+    <script>
+      IntroJs.once()
+    </script>
+    
+  </body>
+</html>
